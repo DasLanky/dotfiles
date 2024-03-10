@@ -28,6 +28,7 @@ sudo apt install vim
 mkdir -p ~/.vim/colors
 curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim
 mv ./jellybeans.vim ~/.vim/colors
+cp ./.vimrc ~/
 
 echo "Overwriting bashrc..."
 rm ~/.bashrc
